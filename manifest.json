@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Son Depremler (TR)",
     "description": "Türkiye'de son depremler hakkında bilgi",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icons": {
         "512": "assets/_images/icon_512.png"
     },
