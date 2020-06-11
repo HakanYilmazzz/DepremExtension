@@ -15,4 +15,4 @@ API için @orhanyd'ye özel teşekkürler
 
 - [ ] Badge ile verilerin gösterilmesi
 - [ ] Yeni veriler girildiğinde uyarı verilmesi
-- [ ] Verilerin grafiksel olarak gösterilmesi 
+- [ ] Verilerin büyüklüklerine göre renkli olarak gösterilmesi 
