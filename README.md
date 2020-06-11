@@ -8,7 +8,7 @@ API için @orhanyd'ye özel teşekkürler
 * Dosyaları bilgisayarınıza kopyalayın
 * Chrome tarayıcınızda [chrome://extensions/](chrome://extensions/) adresine gidin.
 * Paketlenmemiş öğe yükle butonuna tıklayarak dosyaları yükleyin.
-* Sağ üst tarafta eklenti ikonu (yeşil Virüs) gözükmeye başladı.
+* Sağ üst tarafta eklenti ikonu gözükmeye başladı.
 * İkona tıklayarak verilere ulaşabilirsiniz.
 
 # Yapılacaklar Listesi
