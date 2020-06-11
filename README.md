@@ -1,6 +1,6 @@
 # DepremExtension Chrome Eklentisi
 Türkiyedeki Son depremler hakkında Popup bilgi veren basit bir Chrome eklentisidir.
-
+API için @orhanyd'ye özel teşekkürler
 # Ekran Görüntüsü
 ![Title](https://github.com/HakanYilmazzz/DepremExtension/blob/master/assets/_images/ss.png)
 
