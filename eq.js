@@ -21,8 +21,15 @@ function LoadData() {
             row.append($('<td>' + (dataResult[i].date.toLocaleString('us-US')) + "</td>"));
             row.append($('<td>' + dataResult[i].title + "</td>"));
             row.append($('<td>' + dataResult[i].depth.toFixed(1) + " km" + "</td>"));
-            row.append($('<td> <b>' + dataResult[i].mag.toFixed(1) + "</b></td>"));
-
+           // row.append($('<td> <b>' + dataResult[i].mag.toFixed(1) + "</b></td>"));
+            chrome.browserAction.setBadgeText({text: dataResult[0].mag.toLocaleString()});
+            if(dataResult[i].mag<=3){
+                row.append($('<td style="color:green;"> <b>' + dataResult[i].mag.toFixed(1) + "</b></td>"));
+            }else if(dataResult[i].mag>=4){
+                row.append($('<td style="color:red;"> <b>' + dataResult[i].mag.toFixed(1) + "</b></td>"));
+            }else if(dataResult[i].mag<4 && dataResult[i].mag>3){
+                row.append($('<td style="color:#f9a73e"> <b>' + dataResult[i].mag.toFixed(1) + "</b></td>"));
+            }
         }
         $("#getButton").removeClass("initial");
         $("#getButton").addClass("after-load");
@@ -35,5 +42,3 @@ function LoadData() {
 $("#getButton").click(function () {
     LoadData();
 });
-
-
