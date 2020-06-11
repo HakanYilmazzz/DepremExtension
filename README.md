@@ -16,3 +16,4 @@ API için @orhanyd'ye özel teşekkürler
 - [X] Badge ile verilerin gösterilmesi
 - [ ] Yeni veriler girildiğinde uyarı verilmesi
 - [X] Verilerin büyüklüklerine göre renkli olarak gösterilmesi 
+- [ ] Konumlara tıklandığında google maps üzerinde gösterilmesi
