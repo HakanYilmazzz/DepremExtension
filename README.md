@@ -2,7 +2,7 @@
 Türkiyedeki Son depremler hakkında Popup bilgi veren basit bir Chrome eklentisidir.
 API için @orhanyd'ye özel teşekkürler
 # Ekran Görüntüsü
-![Title](https://github.com/HakanYilmazzz/DepremExtension/blob/master/assets/_images/ss.png)
+![Title](https://github.com/HakanYilmazzz/DepremExtension/blob/master/assets/_images/ssy.png)
 
 # Kurulum
 * Dosyaları bilgisayarınıza kopyalayın
@@ -13,6 +13,6 @@ API için @orhanyd'ye özel teşekkürler
 
 # Yapılacaklar Listesi
 
-- [ ] Badge ile verilerin gösterilmesi
+- [X] Badge ile verilerin gösterilmesi
 - [ ] Yeni veriler girildiğinde uyarı verilmesi
-- [ ] Verilerin büyüklüklerine göre renkli olarak gösterilmesi 
+- [X] Verilerin büyüklüklerine göre renkli olarak gösterilmesi 
